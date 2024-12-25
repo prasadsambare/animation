@@ -1,0 +1,98 @@
+  body{ 
+    background-image: url(back.webp); 
+    background-size: 100%;
+  }
+ .container{ 
+    width: 180px;
+   display: flex; 
+   justify-content: center; 
+   margin-left: 330px; 
+   margin-top: 150px;
+    
+}
+.box1{ 
+
+    height: 70px; 
+    width: 60px;
+    background-color: rgb(177, 61, 61); 
+    border: 2px solid black; 
+
+}  
+
+#img{
+    display: flex;
+    height: 70px;
+    width: 60px;
+}
+    
+.box2{ 
+
+    height: 70px; 
+    width: 60px;
+    background-color: rgb(8, 156, 132); 
+    border: 2px solid black; 
+     
+} 
+
+#virat{
+    display: flex;
+    height: 70px;
+    width: 60px;
+}
+
+.box3 {
+
+    height: 70px; 
+    width: 60px;
+    background-color: rgb(70, 145, 10); 
+    border: 2px solid black; 
+    
+}    
+
+#rohit{
+    display: flex;
+    height: 70px;
+    width: 60px;
+}
+
+.container:hover > :not(:hover){
+    filter: blur(5px); 
+    opacity: 0.5; 
+}
+
+.container .box1:hover{ 
+    height: 200px;
+    width: 120px; 
+    transition: 1s ease;
+}   
+
+.container #img:hover{ 
+    height: 200px;
+    width: 120px; 
+    transition: 1s ease;
+}   
+
+.container #virat:hover{ 
+    height: 200px;
+    width: 120px; 
+    transition: 1s ease;
+} 
+.container #rohit:hover{ 
+    height: 200px;
+    width: 120px; 
+    transition: 1s ease;
+
+}  
+
+.container .box2:hover{ 
+    height: 200px;
+    width: 120px; 
+    transition: 1s ease;
+}
+
+.container .box3:hover{ 
+    height: 200px;
+    width: 120px; 
+    transition: 1s ease;
+} 
+
